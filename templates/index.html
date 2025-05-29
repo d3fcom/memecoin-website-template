@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMECOIN </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Play overlay -->
+    <div id="play-overlay" class="play-overlay">
+        <h1>We where waiting for you</h1>
+        <p>(enter)</p>
+    </div>
+
+    <!-- Background music -->
+    <audio id="background-music" loop>
+        <source src="{{ url_for('static', filename='audio/background.mp3') }}" type="audio/mp3">
+    </audio>
+
+    <div class="background-container">
+        <div class="top-message">
+            $MEMECOIN WEBSITE 
+            (template by : LAPM@d3fcom  )
+        </div>
+
+        <img src="{{ url_for('static', filename='images/PC.png') }}" alt="PC" class="pc-image">
+
+        <div class="content">
+            <div class="buttons-container">
+                <a href="https://pump.fun" 
+                   class="btn" target="_blank">
+                    <i class="fas fa-gift"></i> Buy Now
+                </a>
+                <a href="https://x.com/ChefPonke" 
+                   class="btn btn-twitter" target="_blank">
+                    <i class="fab fa-x-twitter"></i> Follow Us
+                </a>
+            </div>
+            <div class="contract-address">
+                Contract address: BF2TnL65a93a2dudexamplec9p9EEaNcN4zXceCpump
+            </div>
+        </div>
+    </div>
+
+    <!-- Snow container -->
+    <div id="snow-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/animations.js') }}"></script>
+</body>
+</html>
