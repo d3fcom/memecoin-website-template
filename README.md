@@ -25,19 +25,18 @@ A festive cryptocurrency landing page with a playful holiday experience for cryp
 🛠️ Technologies Used
 
         Backend
-        Flask - Python web framework for server-side logic
-        Flask-SQLAlchemy - Database ORM integration
-        PostgreSQL - Database support (psycopg2-binary)
+                Flask - Python web framework for server-side logic
+                Flask-SQLAlchemy - Database ORM integration
+                PostgreSQL - Database support (psycopg2-binary)
         Frontend
-        HTML5 - Semantic markup and structure
-        CSS3 - Advanced styling with animations and responsive design
-        JavaScript (ES6+) - Interactive animations and user interface logic
-        Bootstrap 5.3.2 - Responsive grid system and components
-        Font Awesome 6.5.1 - Professional icon library
+                HTML5 - Semantic markup and structure
+                CSS3 - Advanced styling with animations and responsive design
+                JavaScript (ES6+) - Interactive animations and user interface logic
+                Bootstrap 5.3.2 - Responsive grid system and components
+                Font Awesome 6.5.1 - Professional icon library
         Development Tools
-        Python 3.11+ - Modern Python runtime
-        Replit - Cloud development environment
-        Git - Version control
+                Python 3.11
+                Git - Version control
     
 📋 Prerequisites
 
