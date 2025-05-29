@@ -43,30 +43,33 @@ A festive cryptocurrency landing page with a playful holiday experience for cryp
         Python 3.11 or higher
         Git (for cloning the repository)
         Modern web browser with JavaScript enabled
+        
         🚀 Installation & Setup
+        
         Option 1: Quick Start (Recommended)
-        # Clone the repository
-        git clone <your-repository-url>
-        cd <repository-name>
-        # Install dependencies
-        pip install flask flask-sqlalchemy psycopg2-binary email-validator
-        # Run the application
-        python main.py
+                # Clone the repository
+                        git clone <your-repository-url>
+                        cd <repository-name>
+                # Install dependencies
+                        pip install flask flask-sqlalchemy psycopg2-binary email-validator
+                # Run the application
+                        python main.py
+                        
         Option 2: Using Virtual Environment
-        # Clone the repository
-        git clone <your-repository-url>
-        cd <repository-name>
-        # Create virtual environment
-        python -m venv venv
-        # Activate virtual environment
-        # On Windows:
-        venv\Scripts\activate
-        # On macOS/Linux:
-        source venv/bin/activate
-        # Install dependencies
-        pip install flask flask-sqlalchemy psycopg2-binary email-validator
-        # Run the application
-        python main.py
+                # Clone the repository
+                        git clone <your-repository-url>
+                        cd <repository-name>
+                # Create virtual environment
+                        python -m venv venv
+                # Activate virtual environment
+                        # On Windows:
+                                venv\Scripts\activate
+                        # On macOS/Linux:
+                                source venv/bin/activate
+                # Install dependencies
+                        pip install flask flask-sqlalchemy psycopg2-binary email-validator
+                # Run the application
+                        python main.py
     
 🎮 Usage
     Start the Application
